@@ -1,0 +1,40 @@
+# === Maven build ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === IDE files ===
+
+## IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.apt_generated
+.factorypath
+.sts4-cache/
+
+## VS Code
+.vscode/
+
+# === OS files ===
+.DS_Store
+
+# === Logs ===
+*.log
+
+# === NetBeans (optional) ===
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore application.properties
+src/main/resources/application.properties
+src/main/resources/application-*.properties
