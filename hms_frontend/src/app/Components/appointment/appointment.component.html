@@ -31,24 +31,20 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Full Name</th>
+            <th>Name</th>
             <th>Age</th>
-            <th>Blood Group</th>
-            <th>Prescription</th>
-            <th>Dose</th>
-            <th>Urgency</th>
+            <th>Symptoms</th>
+            <th>Token Number</th>
         </tr>
     </thead>
 
     <tbody>
-        <tr *ngFor="let p of patients">
-            <td>{{p.id}}</td>
-            <td>{{p.fullName}}</td>
-            <td>{{p.age}}</td>
-            <td>{{p.bloodGroup}}</td>
-            <td>{{p.prescription}}</td>
-            <td>{{p.dose}}</td>
-            <td>{{p.urgency}}</td>
+        <tr *ngFor="let a of appointment">
+            <td>{{a.id}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.age}}</td>
+            <td>{{a.symptoms}}</td>
+            <td>{{a.tokenNumber}}</td>
         </tr>
     </tbody>
 </table>

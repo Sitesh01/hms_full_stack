@@ -4,11 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminDashboardComponent } from './Components/admin-dashboard/admin-dashboard.component';
+import { AppointmentComponent } from './Components/appointment/appointment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdminDashboardComponent
+    AdminDashboardComponent,
+    AppointmentComponent
   ],
   imports: [
     BrowserModule,
