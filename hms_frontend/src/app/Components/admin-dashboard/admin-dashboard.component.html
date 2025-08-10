@@ -1,0 +1,25 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Age</th>
+            <th>Blood Group</th>
+            <th>Prescription</th>
+            <th>Dose</th>
+            <th>Urgency</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let p of patients">
+            <td>{{p.id}}</td>
+            <td>{{p.fullName}}</td>
+            <td>{{p.age}}</td>
+            <td>{{p.bloodGroup}}</td>
+            <td>{{p.prescription}}</td>
+            <td>{{p.dose}}</td>
+            <td>{{p.urgency}}</td>
+        </tr>
+    </tbody>
+</table>

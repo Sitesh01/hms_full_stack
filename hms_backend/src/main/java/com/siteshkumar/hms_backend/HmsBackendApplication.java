@@ -8,6 +8,6 @@ public class HmsBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HmsBackendApplication.class, args);
-		System.out.println("This project is developed by Sitesh Kumar Bhandary");
+		System.out.println("This is full stack project, developed by Sitesh Kumar");
 	}
 }
